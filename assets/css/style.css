@@ -1,0 +1,64 @@
+:root{
+    --success: #28a415;
+    --white: #fff;
+    --light: #F8F9FA;
+    --color1: #212529;
+    --color2: #707070;
+}
+.navbar{
+    background-color: var(--success);
+    color: var(--white);
+}
+.logo{
+    width: 5.375rem;
+    height: 1.5625rem;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+footer img {
+	height: 24px; 
+	width: 82px;
+}
+.card{
+	width: 350px;
+}
+
+  .card-text {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    color: var(--color2);
+  }
+  .card-title{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*linea entre precio y texto*/
+.border-top{
+    margin: 0 20px ;
+    background-color: #fff;
+
+
+}
+  /*precio color*/
+  .p-1{
+      color: var(--success);
+     
+  }
+  .form {
+    background-color: var(--success);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card {
+      width: 90%;
+    }
+  }  
+  .container-footer{
+    width: 70%;
+    margin: auto;
+
+
+  }
